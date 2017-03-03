@@ -5,6 +5,7 @@ Jesse Tao
 Csci 3308
 
 March 3, 2017
+hello red
 
 
 1. IaaS is scable but you can only dev from only one spot at a time. It is difficult to move infrastructure models. 
