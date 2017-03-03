@@ -1,18 +1,11 @@
 Derek Holland
-
 Jesse Tao
-
 Csci 3308
-
 March 3, 2017
-hello red
-
-
 1. IaaS is scable but you can only dev from only one spot at a time. It is difficult to move infrastructure models. 
 PasS is useful when multiple developers are working on a single application. It works well for automated testing
 and deployment. A scenario IaaS would be better than PaaS is an application that needs to be scaled to users
 but you don't want to deal with multiple devs. 
-
 
 2. Data breaches are a security concern because people can get access to valuble information of people 
 that can lead to very messy situations that are hard to solve. 
