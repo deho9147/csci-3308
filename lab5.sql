@@ -1,0 +1,14 @@
+select * from store order by name;
+select * from store order by name limit 3;
+select * from store order by name limit 2,5;
+select * from store where price > 1;
+alter table store add column extendedprice float;
+update store set extendedprice = qty*price;
+select sum(extendedprice) from store;
+select count(*) from store;
+select * from course join department where course.department_id = department.id and department.id = 1;
+select sum(count) from course,enrollment,department where course.department_id = 1  and enrollment.id = course.id;
+select count(*) from department;
+select * from course join department where course.department_id = department.id;
+select concat(department.name, course.name) from course join department where course.department_id = department.id and department.id = 1;
+select * from course,enrollment,department where course.department_id = department.id  and enrollment.id = course.id;
